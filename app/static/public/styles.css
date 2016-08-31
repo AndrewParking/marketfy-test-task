@@ -1,0 +1,63 @@
+body {
+  font: 16px/1 sans-serif;
+  padding-top: 40px;
+}
+#root {
+  height: 100%;
+}
+
+.active {
+    background: #000;
+    color: #fff;
+}
+
+.container {
+    box-shadow: 0 4px 5px 1px #ccc;
+    padding-bottom: 40px;
+}
+
+header {
+ margin-bottom: 50px;
+ box-shadow: 0 3px 2px #ccc;
+}
+
+header .header {
+    width: 100% !important;
+}
+header button {
+    margin-right: 20px !important;
+    margin-left: 7px !important;
+}
+header .form-group {
+    margin-top: 10px;
+}
+
+.section-heading {
+    font-size: 18px;
+    margin-bottom: 35px;
+    padding-left: 14px;
+}
+
+.buy-sell-section input {
+    display: inline-block;
+    width: 100px !important;
+    margin-right: 35px;
+}
+.buy-sell-section button {
+    margin-left: 5px;
+}
+.symbol-table {
+    margin-left: 10px;
+}
+td {
+    vertical-align: center !important;
+}
+.symbol-replacer {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+}
+
+.current {
+    background: #eee;
+}
